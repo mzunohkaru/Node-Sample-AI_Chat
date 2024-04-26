@@ -1,0 +1,20 @@
+{
+  "name": "ai_sample",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "gpt": "node --watch gpt/index.js",
+    "gemini": "node --watch gemini/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@google/generative-ai": "^0.8.0",
+    "dotenv": "^16.4.5",
+    "openai": "^4.38.5",
+    "readline": "^1.3.0"
+  }
+}
